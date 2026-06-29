@@ -4,7 +4,13 @@ import { ReactElement } from "react"
 import { AdjustmentsHorizontalICON } from "@/icons/adjustments-horizontal";
 import { AlertTriangleICON } from "@/icons/alert-triangle";
 import { BoltICON } from "@/icons/bolt";
-import { BookIcon } from "@/icons/book";
+import { BookICON } from "@/icons/book";
+import { CheckICON } from "@/icons/check";
+import { CircleCheckICON } from "@/icons/circle-check";
+import { ClockICON } from "@/icons/clock";
+import { CopyICON } from "@/icons/copy";
+import { CrossICON } from "@/icons/cross";
+import { DeviceMobileICON } from "@/icons/device-mobile";
 
 export default function IconPreview({type} : any){
 
@@ -33,9 +39,40 @@ export default function IconPreview({type} : any){
         ),
         bookicon:(
             <div className={base}>
-                <BookIcon />
+                <BookICON />
             </div>
         ),
+        checkicon:(
+            <div className={base}>
+                <CheckICON />
+            </div>
+        ),
+        circlecheckicon:(
+            <div className={base}>
+                <CircleCheckICON />
+            </div>
+        ),
+        clockicon:(
+            <div className={base}>
+                <ClockICON />
+            </div>
+        ),
+        copyicon:(
+            <div className={base} >
+                <CopyICON />
+            </div>
+        ),
+        crossicon:(
+            <div className={base}>
+                <CrossICON />
+            </div>
+        ),
+        devicemobile:(
+            <div className={base}>
+                <DeviceMobileICON />
+            </div>
+        )
+
     }
 
     return previews[type];

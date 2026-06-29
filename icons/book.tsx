@@ -1,7 +1,7 @@
 import { useAnimation, motion } from "motion/react";
 import { useRef } from "react";
 
-export function BookIcon (){
+export function BookICON (){
 
     const outer = useAnimation();
 
