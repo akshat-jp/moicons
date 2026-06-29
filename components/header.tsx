@@ -10,7 +10,7 @@ export function Header(){
                         </svg>
                     </div>
                     <div >
-                        Pie Motion
+                        Mocons
                     </div>
                 </div>
 
