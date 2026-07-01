@@ -21,7 +21,7 @@ export default function IconCard ({ icon }: IconCardProps) {
     return(
         <motion.div 
             
-            className="group hover:border hover:border-neutral-100 bg-white w-[170px] h-[210px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-center justify-center gap-3 rounded-md manrope">
+            className="group hover:shadow-sm hover:border hover:border-neutral-200 bg-white w-[170px] h-[210px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-center justify-center gap-3 rounded-md manrope">
             {/* TOP ICON */}
             
             <div className="">

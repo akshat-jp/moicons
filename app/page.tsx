@@ -1,29 +1,23 @@
+"use client"
+
 import { FeaturedSection } from "@/components/featuredsection";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 
 export default function Home() {
+
+    const scrollToComponents = () => {
+    document.getElementById('icons')?.scrollIntoView({ behavior: 'smooth' });
+
+    };
   
   return (
-    // <div className="relative min-h-screen w-full overflow-x-hidden">
-    //   {/* Background */}
-    //   <div
-    //     className="absolute inset-0 -z-10"
-    //     style={{
-    //       background:
-    //         "radial-gradient(125% 125% at 50% 90%, #fff 40%, #434343 100%)",
-    //     }}
-    //   />
-
-    //   {/* Content */}
-    //   <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col items-center px-4 sm:px-6 lg:px-8">
-    //     <Header />
-    //     <Hero />
-    //   </div>
-    // </div>
+    
+    // bg from @patterncraft <3    
 
     <div className="min-h-screen w-full relative">
-  {/* Dashed Top Fade Grid */}
+  
   <div
     className="absolute inset-0 z-0"
     style={{
@@ -76,11 +70,13 @@ export default function Home() {
 
         <Header />
         
-        <Hero />
+        <Hero onBrowse={scrollToComponents} />
         
         <FeaturedSection />
 
-        </div>
+        <Footer />
+
+    </div>
 </div>
   );
 }

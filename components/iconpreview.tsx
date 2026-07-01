@@ -34,10 +34,31 @@ import { LockICON } from "@/icons/lock";
 import { LogoutICON } from "@/icons/logout";
 import { MailICON } from "@/icons/mail";
 import { MapPinICON } from "@/icons/map-pin";
+import { LinkICON } from "@/icons/link";
+import { MenuICON } from "@/icons/menu";
+import { MessageCircleICON } from "@/icons/message-circle";
+import { MessageICON } from "@/icons/message";
+import { MoonICON } from "@/icons/moon";
+import { PencilICON } from "@/icons/pencil";
+import { PhoneICON } from "@/icons/phone";
+import { PlusICON } from "@/icons/plus";
+import { RefreshICON } from "@/icons/refresh";
+import { SearchICON } from "@/icons/search";
+import { SendICON } from "@/icons/send";
+import { SettingsICON } from "@/icons/settings";
+import { ShoppingCartICON } from "@/icons/shopping-cart";
+import { StarICON } from "@/icons/star";
+import { SunICON } from "@/icons/sun";
+import { TrashICON } from "@/icons/trash";
+import { UserPlusICON } from "@/icons/user-plus";
+import { UserICON } from "@/icons/user";
+import { UserCircleICON } from "@/icons/usercircle";
+import { UsersICON } from "@/icons/users";
+import { WorldICON } from "@/icons/world";
 
 export default function IconPreview({type} : any){
 
-    const base = ` bg-red-200 size-20 rounded-lg flex items-center justify-center`
+    const base = `size-20 rounded-lg flex items-center justify-center`
 
     const previews : Record<string, ReactElement> = {
         adjustmentshorizontal:(
@@ -192,7 +213,7 @@ export default function IconPreview({type} : any){
         ),
         linkicon:(
             <div className={base}>
-                
+                <LinkICON />
             </div>
         ),
         lockicon:(
@@ -217,12 +238,102 @@ export default function IconPreview({type} : any){
         ),
         menuicon:(
             <div className={base}>
-                
+                <MenuICON />
             </div>
         ),
         messagecircleicon:(
             <div className={base}>
-                
+                <MessageCircleICON />
+            </div>
+        ),
+        messageicon:(
+            <div className={base}>
+                <MessageICON />
+            </div>
+        ),
+        moonicon:(
+            <div className={base}>
+                <MoonICON />
+            </div>
+        ),
+        pencilicon:(
+            <div className={base}>
+                <PencilICON />
+            </div>
+        ),
+        phoneicon:(
+            <div className={base}>
+                <PhoneICON />
+            </div>
+        ),
+        plusicon:(
+            <div className={base}>
+                <PlusICON />
+            </div>
+        ),
+        refreshicon:(
+            <div className={base}>
+                <RefreshICON />
+            </div>
+        ),
+        searchicon:(
+            <div className={base}>
+                <SearchICON />
+            </div>
+        ),
+        sendicon:(
+            <div className={base}>
+                <SendICON />
+            </div>
+        ),
+        settingsicon:(
+            <div className={base}>
+                <SettingsICON />
+            </div>
+        ),
+        shoppingcarticon:(
+            <div className={base}>
+                <ShoppingCartICON />
+            </div>
+        ),
+        staricon:(
+            <div className={base}>
+                <StarICON />
+            </div>
+        ),
+        sunicon:(
+            <div className={base}>
+                <SunICON />
+            </div>
+        ),
+        trashicon:(
+            <div className={base}>
+                <TrashICON />
+            </div>
+        ),
+        userplusicon:(
+            <div className={base}>
+                <UserPlusICON />
+            </div>
+        ),
+        usericon:(
+            <div className={base}>
+                <UserICON />
+            </div>
+        ),
+        usercircleicon:(
+            <div className={base}>
+                <UserCircleICON />
+            </div>
+        ),
+        usersicon:(
+            <div className={base}>
+                <UsersICON />
+            </div>
+        ),
+        worldicon:(
+            <div className={base}>
+                <WorldICON />
             </div>
         )
 

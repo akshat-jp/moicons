@@ -1,14 +1,14 @@
 "use client"
 import { useState } from "react";
 
-export function Hero(){
+export function Hero({onBrowse}: { onBrowse: () => void }){
 
     const [selected, setSelected] = useState("npm");
 
     const [copied, setCopied] = useState(false);
 
     return(
-        <div className=" mx:auto relative border-b border-neutral-200 pb-10 w-full h-[100px] flex flex-col gap-15 justify-center items-center manrope  h-[900px] selection:bg-neutral-900 selection:text-white ">
+        <div className=" mx:auto relative border-b border-neutral-200  pb-10 w-full h-[100px] flex flex-col gap-15 justify-center items-center manrope  h-[900px] selection:bg-neutral-900 selection:text-white ">
             
             
             {/* NEW ICONS */}
@@ -21,22 +21,20 @@ export function Hero(){
             <div className="flex flex-col gap-10 text-center px-[50px] md:px-[200px] lg:px-[300px]">
                 <div className="flex flex-col gap-1">
                     <span className="text-[45px] font-bold">Beautiful Animated Icons</span>
-                    <span className="text-[24px] font-bold "><span className="">Browse</span> animations with copy-ready code.</span>
+                    <span className="text-[24px] font-bold "><span className="cursor-pointer bg-neutral-200 px-[6px] rounded-md" onClick={onBrowse}>Browse</span> animations with copy-ready code.</span>
                 </div>
                 <p className="text-[18px] font-semibold text-neutral-500">A collection of smooth animated icons for your next project, free to use and easy to customize. Feel free to use them and give feedback.</p>
             </div>
 
             {/* Buttons */}
 
-            <div className="flex flex-col md:flex-row  gap-20 ">
-                <div className="flex gap-2 items-center justify-center bg-black text-white px-[15px] py-[9px] rounded-md cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-                    <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg></div>
-                    <span className="text-[17px] font-semibold">Contribute here!</span>
-                </div>
-                
-                <div className="flex gap-2 items-center justify-center rounded-md px-[11px] py-[9px] cursor-pointer shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+            <div className="  ">
+                            
+                <div 
+                    onClick={()=>{}}
+                    className="flex gap-2 items-center justify-center rounded-md px-[100px] py-[10px] cursor-pointer shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
                     <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg></div>
-                    <span className="text-[17px] font-semibold">Contribute here!</span>
+                    <div onClick={onBrowse} className="text-[17px] font-semibold">Browse Icons</div>
                 </div>
             </div>
 
@@ -98,6 +96,15 @@ export function Hero(){
                         </svg>}
                     </span>
 
+                </div>
+            </div>
+
+
+            {/* CONTRIBUTE */}
+            
+            <div className="bg-red-200 w-[350px] md:w-[460px] flex items-center justify-center border-l">
+                <div>
+                    hi there
                 </div>
             </div>
 

@@ -11,7 +11,7 @@ export function FeaturedSection(){
     icon.name.toLowerCase().includes(query.toLowerCase())
   )
     
-    return <div className=" w-full   pb-[500px]  flex flex-col items-center">
+    return <div id="icons" className=" w-full border-b border-neutral-200  pb-[100px] border-b  flex flex-col items-center">
 
         {/* SEARCHBAR */}
 
