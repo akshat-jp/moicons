@@ -17,6 +17,30 @@ interface IconCardProps {
 export default function IconCard ({ icon }: IconCardProps) {
 
     const [copied, setCopied] = useState(false)
+    const [loading, setLoading] = useState(false)
+
+
+    const handleCopy = async () => {
+        if (loading) return;
+        setLoading(true);
+
+        try {
+            const res = await fetch(`/api/icon-source?path=${encodeURIComponent(icon.code)}`);
+            const data = await res.json();
+
+            if (data.code) {
+                await navigator.clipboard.writeText(data.code);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 1000);
+            } else {
+                console.error(data.error);
+            }
+        } catch (err) {
+            console.error("Copy failed:", err);
+        } finally {
+            setLoading(false);
+        }
+    }
 
     return(
         <motion.div 
@@ -40,17 +64,7 @@ export default function IconCard ({ icon }: IconCardProps) {
 
                     {/* COPY */}
 
-                    <span onClick={()=>{
-
-                        setCopied(true)
-
-                        setTimeout(() => {
-                            setCopied(false)
-                        }, 1000);
-                        
-                        
-
-                    }} className=" opacity-0 group-hover:opacity-100 bg-neutral-100 size-8 flex items-center justify-center rounded-md p-[5px] hover:bg-neutral-200 cursor-pointer transition duration:1.5"  >
+                    <span onClick={handleCopy} className=" opacity-0 group-hover:opacity-100 bg-neutral-100 size-8 flex items-center justify-center rounded-md p-[5px] hover:bg-neutral-200 cursor-pointer transition duration:1.5"  >
                         {copied === false 
                         ? <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-copy">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 9.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667l0 -8.666" />

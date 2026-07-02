@@ -40,7 +40,7 @@ export function Hero({ onBrowse }: HeroProps) {
             <button
               type="button"
               onClick={onBrowse}
-              className="rounded-md bg-neutral-200 px-2 py-0.5 transition duration-200 hover:bg-neutral-300"
+              className="rounded-md bg-neutral-200 px-2 py-0.5 transition duration-200 hover:bg-neutral-300 cursor-pointer"
             >
               Browse
             </button>{" "}
@@ -57,14 +57,14 @@ export function Hero({ onBrowse }: HeroProps) {
       <button
         type="button"
         onClick={onBrowse}
-        className="flex w-full max-w-[260px] items-center justify-center gap-2 rounded-md bg-white px-6 py-3 text-[17px] font-semibold text-neutral-950 shadow-[0_14px_40px_rgba(17,17,26,0.12)] transition duration-200 hover:-translate-y-0.5 hover:bg-neutral-50"
+        className="cursor-pointer flex w-full max-w-[260px] items-center justify-center gap-2 rounded-md bg-white px-6 py-3 text-[17px] font-semibold text-neutral-950 shadow-[0_14px_40px_rgba(17,17,26,0.12)] transition duration-200 hover:-translate-y-0.5 hover:bg-neutral-50"
       >
         <CodeIcon />
         Browse Icons
       </button>
 
-      <div className="flex w-full max-w-[460px] flex-col gap-2 pt-3">
-        <div className="flex flex-wrap gap-2 text-[15px] font-semibold">
+      <div className="flex w-full max-w-[460px] flex-col gap-2 pt-3 ">
+        <div className="flex flex-wrap gap-2 text-[15px] font-semibold ">
           {packageManagers.map((manager) => (
             <button
               key={manager.id}
@@ -82,7 +82,7 @@ export function Hero({ onBrowse }: HeroProps) {
         </div>
 
         <div className="flex items-center justify-between gap-3 rounded-lg border border-neutral-200 bg-white/90 px-3 py-2 shadow-sm backdrop-blur">
-          <code className="min-w-0 truncate text-sm font-semibold text-neutral-600 sm:text-base">
+          <code className="min-w-0 truncate manrope text-neutral-600 sm:text-base">
             {selectedPackage.command}
           </code>
 
@@ -104,7 +104,7 @@ export function Hero({ onBrowse }: HeroProps) {
 
 function CraftedWithMotion() {
   return (
-    <div className="w-full max-w-[520px] rounded-lg border border-neutral-200 bg-white/90 px-4 py-3 shadow-[0_14px_40px_rgba(17,17,26,0.08)] backdrop-blur">
+    <div className="w-full max-w-[520px] rounded-lg border border-neutral-200 bg-white/90 px-4 py-3 shadow-[0_14px_40px_rgba(17,17,26,0.08)] backdrop-blur manrope">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex min-w-0 items-center gap-3">
           <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md border border-neutral-200 bg-neutral-50">
@@ -115,7 +115,7 @@ function CraftedWithMotion() {
 
           <div className="min-w-0">
             <p className="truncate text-base font-bold text-neutral-950">
-              Crafted with <span className="text-neutral-600">Motion</span>
+              Crafted with <span className="text-neutral-600 border border-transparent hover:border-neutral-200 rounded-sm px-1 hover:bg-neutral-100 transition duration:200 ">Motion</span>
             </p>
             <a
               href="https://github.com/akshat-jp"

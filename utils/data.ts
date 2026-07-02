@@ -3,330 +3,331 @@ export const ICONS = [
         id : 1,
         name : "Adjustments Horizontal",
         tag : "adjustmentshorizontal",
-        code : ""
+        code : "icons/adjustments-horizontal"
     },
     {
         id : 2,
         name : "Alert Triangle",
         tag : "alerttriangle",
-        code : ""
+        code : "icons/alert-triangle"
     },
     {
         id : 3,
         name : "Alarm",
         tag : "alarmicon",
-        code : ""
+        code : "icons/alarm"
     },
     {
         id : 4,
         name : "Bolt",
         tag : "bolticon",
-        code : ""
+        code : "icons/bolt"
     },
     {
         id : 5,
         name : "Book",
         tag : "bookicon",
-        code : ""
+        code : "icons/book"
     },
     {
         id : 6,
         name : "Check",
         tag : "checkicon",
-        code : ""
+        code : "icons/check"
     },
     {
         id : 7,
         name : "Circle Check",
         tag : "circlecheckicon",
-        code : ""
+        code : "icons/circle-check"
     },
     {
         id : 8,
         name : "Clock",
         tag : "clockicon",
-        code : ""
+        code : "icons/clock"
     },
     {
         id : 9,
         name : "Copy",
         tag : "copyicon",
-        code : ""
+        code : "icons/copy"
     },
     {
         id : 10,
         name : "Cross",
         tag : "crossicon",
-        code : ""
+        code : "icons/cross"
     },
     {
         id : 11,
         name : "Device Mobile",
         tag : "devicemobile",
-        code : ""
+        code : "icons/device-mobile"
     },
     {
         id : 12,
         name : "Discount Check",
         tag : "discountcheckicon",
-        code : ""
+        code : "icons/discount-check"
     },
     {
         id : 13,
         name : "Dots Horizontal",
         tag : "dotshorizontalicon",
-        code : ""
+        code : "icons/dots-horizontal"
     },
     {
         id : 14,
         name : "Dots Vertical",
         tag : "dotsverticalicon",
-        code : ""
+        code : "icons/dots-vertical"
     },
     {
         id : 15,
         name : "Arrow Down",
         tag : "arrowdownicon",
-        code : ""
+        code : "icons/down-arrow"
     },
     {
         id : 16,
         name : "Arrow Left",
         tag : "arrowlefticon",
-        code : ""
+        code : "icons/left-arrow"
     },
     {
         id : 17,
         name : "Arrow Right",
         tag : "arrowrighticon",
-        code : ""
+        code : "icons/right-arrow"
     },
     {
         id : 18,
         name : "Arrow Up",
         tag : "arrowupicon",
-        code : ""
+        code : "icons/up-arrow"
     },
     {
         id : 19,
         name : "Download",
         tag : "downloadicon",
-        code : ""
+        code : "icons/download"
     },
     {
         id : 20,
         name : "Edit",
         tag : "editicon",
-        code : ""
+        code : "icons/edit"
     },
     {
         id : 21,
         name : "External Link",
         tag : "externallinkicon",
-        code : ""
+        code : "icons/external-link"
     },
     {
         id : 22,
         name : "Eye",
         tag : "eyeicon",
-        code : ""
+        code : "icons/eye"
     },
     {
         id : 23,
         name : "File Description",
         tag : "filedescriptionicon",
-        code : ""
+        code : "icons/file-description"
     },
     {
         id : 24,
         name : "File",
         tag : "fileicon",
-        code : ""
+        code : "icons/file"
     },
     {
         id : 25,
         name : "Flame",
         tag : "flameicon",
-        code : ""
+        code : "icons/flame"
     },
     {
         id : 26,
         name : "Folder",
         tag : "foldericon",
-        code : ""
+        code : "icons/folder"
     },
     {
         id : 27,
         name : "Heart",
         tag : "hearticon",
-        code : ""
+        code : "icons/heart"
     },
     {
         id : 28,
         name : "Home",
         tag : "homeicon",
-        code : ""
+        code : "icons/home"
     },
     {
         id : 29,
         name : "Info Circle",
         tag : "infocircleicon",
-        code : ""
+        code : "icons/info-circle"
     },
     {
         id : 30,
         name : "List",
         tag : "listicon",
-        code : ""
+        code : "icons/list"
     },
     {
         id : 31,
         name : "Lock",
         tag : "lockicon",
-        code : ""
+        code : "icons/lock"
     },
     {
         id : 32,
         name : "Logout",
         tag : "logouticon",
-        code : ""
+        code : "icons/logout"
     },
     {
         id : 33,
         name : "Mail",
         tag : "mailicon",
-        code : ""
+        code : "icons/mail"
     },
     {
         id : 34,
         name : "Map Pin",
         tag : "mappinicon",
-        code : ""
+        code : "icons/map-pin"
     },
     {
         id : 35,
         name : "Menu",
         tag : "menuicon",
-        code : ""
+        code : "icons/menu"
     },
     {
         id : 36,
         name : "Message Circle",
         tag : "messagecircleicon",
-        code : ""
+        code : "icons/message-circle"
     },
     {
         id : 37,
         name : "Link",
         tag : "linkicon",
-        code : ""
+        code : "icons/link"
     },
     {
         id : 38,
         name : "Message",
         tag : "messageicon",
-        code : ""
+        code : "icons/message"
     },
     {
         id : 39,
         name : "Moon",
         tag : "moonicon",
-        code : ""
+        code : "icons/moon"
     },
     {
         id : 40,
         name : "Pencil",
         tag : "pencilicon",
-        code : ""
+        code : "icons/pencil"
     },
     {
         id : 41,
         name : "Phone",
         tag : "phoneicon",
-        code : ""
+        code : "icons/phone"
     },
     {
         id : 42,
         name : "Plus",
         tag : "plusicon",
-        code : ""
+        code : "icons/plus"
     },
     {
         id : 43,
         name : "Refresh",
         tag : "refreshicon",
-        code : ""
+        code : "icons/refresh"
     },
     {
         id : 44,
         name : "Search",
         tag : "searchicon",
-        code : ""
+        code : "icons/search"
     },
     {
         id : 45,
         name : "Send",
         tag : "sendicon",
-        code : ""
+        code : "icons/send"
     },
     {
         id : 46,
         name : "Settings",
         tag : "settingsicon",
-        code : ""
+        code : "icons/settings"
     },
     {
         id : 47,
         name : "Shopping Cart",
         tag : "shoppingcarticon",
-        code : ""
+        code : "icons/shopping-cart"
     },
     {
         id : 48,
         name : "Star",
         tag : "staricon",
-        code : ""
+        code : "icons/star"
     },
     {
         id : 49,
         name : "Sun",
         tag : "sunicon",
-        code : ""
+        code : "icons/sun"
     },
     {
         id : 50,
         name : "Trash",
         tag : "trashicon",
-        code : ""
+        code : "icons/trash"
     },
     {
         id : 51,
         name : "User Plus",
         tag : "userplusicon",
-        code : ""
+        code : "icons/user-plus"
     },
     {
         id : 52,
         name : "User",
         tag : "usericon",
-        code : ""
+        code : "icons/user"
     },
     {
         id : 53,
         name : "User Circle",
         tag : "usercircleicon",
-        code : ""
+        code : "icons/usercircle"
     },
     {
         id : 54,
         name : "Users",
         tag : "usersicon",
-        code : ""
+        code : "icons/users"
     },
     {
         id : 55,
         name : "World",
         tag : "worldicon",
-        code : ""
+        code : "icons/world"
     }
 ]
+
