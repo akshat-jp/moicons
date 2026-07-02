@@ -30,7 +30,7 @@ export function Hero({ onBrowse }: HeroProps) {
   };
 
   return (
-    <section className="manrope selection:bg-neutral-900 selection:text-white relative flex w-full flex-col items-center justify-center gap-10 border-b border-neutral-200 px-4 py-20 sm:px-6 lg:py-24">
+    <section className="manrope selection:bg-neutral-900 selection:text-white relative flex w-full flex-col items-center justify-center gap-18 border-b border-neutral-200 px-4 py-20 sm:px-6 lg:py-24">
       <div className="flex max-w-3xl flex-col items-center gap-6 text-center">
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-bold tracking-normal text-neutral-950 sm:text-5xl">
@@ -118,12 +118,12 @@ function CraftedWithMotion() {
               Crafted with <span className="text-neutral-600 border border-transparent hover:border-neutral-200 rounded-sm px-1 hover:bg-neutral-100 transition duration:200 ">Motion</span>
             </p>
             <a
-              href="https://github.com/akshat-jp"
+              href="https://x.com/akshat_jp"
               target="_blank"
               rel="noreferrer"
               className="text-sm font-semibold text-neutral-500 transition duration-200 hover:text-neutral-950"
             >
-              by @akshat-jp
+              by @akshat_jp
             </a>
           </div>
         </div>

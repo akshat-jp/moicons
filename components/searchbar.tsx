@@ -10,7 +10,7 @@ export function SearchBar({query, onChange}: { query: string, onChange: (v: stri
     return(
         <motion.div 
             whileHover="animate"
-            className=" w-full px-2 bg-white py-[4px] rounded-xl mb-[60px] mt-[110px] flex items-center gap-1 manrope border border-neutral-100 shadow-md">
+            className=" w-full px-2 bg-white py-[4px] rounded-xl mb-[60px] mt-[100px] flex items-center gap-1 manrope border border-neutral-100 shadow-md">
 
 
     {/* LEFT */}

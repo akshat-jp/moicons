@@ -42,7 +42,7 @@ export default function Home() {
               transparent 3px,
               transparent 8px
             ),
-            radial-gradient(ellipse 70% 60% at 50% 0%, #000 60%, transparent 100%)
+            radial-gradient(ellipse 100% 40% at 40% 0%, #000 60%, transparent 100%)
       `,
       WebkitMaskImage: `
  repeating-linear-gradient(
