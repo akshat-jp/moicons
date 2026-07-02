@@ -1,12 +1,9 @@
 <div>
 
 <!-- Hero Image -->
-<img src="./assets/banner.png" alt="MoIcons Banner" width="100%" />
+<img src="/public/banner.png.png" alt="MoIcons Banner" width="100%" />
 
-<br>
-<br>
-
-## ✨ MoIcons
+# Visit - [MoIcons](https://moicons.vercel.app/) 
 
 ### Beautiful Animated Icons for Modern React Applications
 
@@ -20,16 +17,16 @@ Simply **copy, paste, and use** — no complicated setup, no unnecessary depende
 
 ## ✨ Features
 
-- 🎨 Beautiful animated icons
-- ⚡ Copy & Paste components
-- 🪶 Lightweight
-- 🎯 Fully customizable
-- ⚛️ Built for React
-- 🎬 Powered by Motion
-- 🌙 Dark & Light mode friendly
-- 📱 Responsive by default
-- 🧩 TypeScript support
-- 🚀 New icons added regularly
+-  Beautiful animated icons
+-  Copy & Paste components
+-  Lightweight
+-  Fully customizable
+-  Built for React
+-  Powered by Motion
+-  Dark & Light mode friendly
+-  Responsive by default
+-  TypeScript support
+-  New icons added regularly
 
 
 ## 🛠 Tech Stack
