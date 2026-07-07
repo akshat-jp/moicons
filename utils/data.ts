@@ -328,6 +328,66 @@ export const ICONS = [
         name : "World",
         tag : "worldicon",
         code : "icons/world"
+    },
+    {
+        id : 56,
+        name : "Upload",
+        tag : "uploadicon",
+        code : "icons/upload"
+    },
+    {
+        id : 57,
+        name : "Eye Off",
+        tag : "eyeofficon",
+        code : "icons/eye-off"
+    },
+    {
+        id : 58,
+        name : "xBox X",
+        tag : "xboxxicon",
+        code : "icons/xbox-x"
+    },
+    {
+        id : 59,
+        name : "Shield",
+        tag : "shieldicon",
+        code : "icons/shield"
+    },
+    {
+        id : 60,
+        name : "Trending Up",
+        tag : "trendingupicon",
+        code : "icons/trending-up"
+    },
+    {
+        id : 61,
+        name : "Trending Down",
+        tag : "trendingdownicon",
+        code : "icons/trending-down"
+    },
+    {
+        id : 62,
+        name : "Category",
+        tag : "categoryicon",
+        code : "icons/category"
+    },
+    {
+        id : 63,
+        name : "Video",
+        tag : "videoicon",
+        code : "icons/video"
+    },
+    {
+        id : 64,
+        name : "History",
+        tag : "historyicon",
+        code : "icons/history"
+    },
+    {
+        id : 65,
+        name : "Tool",
+        tag : "toolicon",
+        code : "icons/tool"
     }
 ]
 

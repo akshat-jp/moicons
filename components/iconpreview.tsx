@@ -55,10 +55,20 @@ import { UserICON } from "@/icons/user";
 import { UserCircleICON } from "@/icons/usercircle";
 import { UsersICON } from "@/icons/users";
 import { WorldICON } from "@/icons/world";
+import { UploadICON } from "@/icons/upload";
+import { EyeOffICON } from "@/icons/eye-off";
+import { XboxXICON } from "@/icons/xbox-x";
+import { ShieldICON } from "@/icons/shield";
+import { TrendingUpICON } from "@/icons/trending-up";
+import { TrendingDownICON } from "@/icons/trending-down";
+import { CategoryICON } from "@/icons/category";
+import { VideoICON } from "@/icons/video";
+import { HistoryICON } from "@/icons/history";
+import { ToolICON } from "@/icons/tool";
 
 export default function IconPreview({type} : any){
 
-    const base = `size-20 rounded-lg flex items-center justify-center`
+    const base = `size-20 rounded-lg flex items-center justify-center `
 
     const previews : Record<string, ReactElement> = {
         adjustmentshorizontal:(
@@ -334,6 +344,56 @@ export default function IconPreview({type} : any){
         worldicon:(
             <div className={base}>
                 <WorldICON />
+            </div>
+        ),
+        uploadicon:(
+            <div className={base}>
+                <UploadICON />
+            </div>
+        ),
+        eyeofficon:(
+            <div className={base}>
+                <EyeOffICON />
+            </div>
+        ),
+        xboxxicon:(
+            <div className={base}>
+                <XboxXICON />
+            </div>
+        ),
+        shieldicon:(
+            <div className={base}>
+                <ShieldICON />
+            </div>
+        ),
+        trendingupicon:(
+            <div className={base}>
+                <TrendingUpICON />
+            </div>
+        ),
+        trendingdownicon:(
+            <div className={base}>
+                <TrendingDownICON />
+            </div>
+        ),
+        categoryicon:(
+            <div className={base}>
+                <CategoryICON />
+            </div>
+        ),
+        videoicon:(
+            <div className={base}>
+                <VideoICON />
+            </div>
+        ),
+        historyicon:(
+            <div className={base}>
+                <HistoryICON />
+            </div>
+        ),
+        toolicon:(
+            <div className={base}>
+                <ToolICON />
             </div>
         )
 
