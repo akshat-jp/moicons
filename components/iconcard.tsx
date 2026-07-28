@@ -49,13 +49,18 @@ export default function IconCard ({ icon }: IconCardProps) {
 
     return(
         <motion.div
-                className="cursor-pointer group hover:shadow-sm hover:border hover:border-neutral-200 w-[130px] 
-                h-[150px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-center justify-center gap 
+                className="cursor-pointer group shadow-md hover:shadow-transparent border border-transparent hover:border-neutral-100 w-[130px] 
+                h-[150px]  flex flex-col items-center justify-center gap 
                 rounded-md manrope"
                 
                 animate={{ 
                     backgroundColor: flash ? "oklch(0.922 0 0)" : "#ffffff",
                     borderColor: copied ? "oklch(0.922 0 0)" : "",
+                }}
+                
+                whileHover={{
+                    backgroundColor:"oklch(0.985 0 0)" ,
+                    scale:1.1
                 }}
                 
                 transition={{ duration: 0.5 }}
@@ -108,5 +113,6 @@ export default function IconCard ({ icon }: IconCardProps) {
             </div>
         </motion.div>
     );
+    
 }
 
