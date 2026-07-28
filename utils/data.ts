@@ -388,6 +388,216 @@ export const ICONS = [
         name : "Tool",
         tag : "toolicon",
         code : "icons/tool"
-    }
+    },
+    {
+        id : 66,
+        name : "Code",
+        tag : "codeicon",
+        code : "icons/code"
+    },
+    {
+        id : 67,
+        name : "Share",
+        tag : "shareicon",
+        code : "icons/share"
+    },
+    {
+        id : 68,
+        name : "Bookmark",
+        tag : "bookmarkicon",
+        code : "icons/bookmark"
+    },
+    {
+        id : 69,
+        name : "Pin",
+        tag : "pinicon",
+        code : "icons/pin"
+    },
+    {
+        id : 70,
+        name : "Cancel",
+        tag : "cancelicon",
+        code : "icons/cancel"
+    },
+    {
+        id : 71,
+        name : "Flag",
+        tag : "flagicon",
+        code : "icons/flag"
+    },
+    {
+        id : 72,
+        name : "Cloud",
+        tag : "cloudicon",
+        code : "icons/cloud"
+    },
+    // {
+    //     id : 73,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 74,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 75,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 76,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 77,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 78,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 79,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 80,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 81,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 82,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 83,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 84,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 85,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 86,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 87,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 88,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 89,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 90,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 91,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 92,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 93,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 94,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 95,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 96,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 97,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 98,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 99,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // },
+    // {
+    //     id : 100,
+    //     name : "Tool",
+    //     tag : "toolicon",
+    //     code : "icons/tool"
+    // }
 ]
 

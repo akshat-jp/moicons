@@ -65,6 +65,13 @@ import { CategoryICON } from "@/icons/category";
 import { VideoICON } from "@/icons/video";
 import { HistoryICON } from "@/icons/history";
 import { ToolICON } from "@/icons/tool";
+import { CodeICON } from "@/icons/code";
+import { ShareICON } from "@/icons/share";
+import { BookmarkICON } from "@/icons/bookmark";
+import { PinICON } from "@/icons/pin";
+import { CancelICON } from "@/icons/cancel";
+import { FlagICON } from "@/icons/flag";
+import { CloudICON } from "@/icons/cloud";
 
 export default function IconPreview({type} : any){
 
@@ -394,6 +401,41 @@ export default function IconPreview({type} : any){
         toolicon:(
             <div className={base}>
                 <ToolICON />
+            </div>
+        ),
+        codeicon:(
+            <div className={base}>
+                <CodeICON />
+            </div>
+        ),
+        shareicon:(
+            <div className={base}>
+                <ShareICON />
+            </div>
+        ),
+        bookmarkicon:(
+            <div className={base}>
+                <BookmarkICON />
+            </div>
+        ),
+        pinicon:(
+            <div className={base}>
+                <PinICON />
+            </div>
+        ),
+        cancelicon:(
+            <div className={base}>
+                <CancelICON />
+            </div>
+        ),
+        flagicon:(
+            <div className={base}>
+                <FlagICON />
+            </div>
+        ),
+        cloudicon:(
+            <div className={base}>
+                <CloudICON />
             </div>
         )
 

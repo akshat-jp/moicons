@@ -43,7 +43,7 @@ export function SearchBar({query, onChange}: { query: string, onChange: (v: stri
 
     {/* RIGHT */}
 
-            <input value={query} onChange={(e)=>{onChange(e.target.value)}} type="text" placeholder="Search.."  className="w-full bg-transparent outline-none text-[21px] font-semibold text-neutral-500 placeholder:font-semibold placeholder:text-neutral-400  "></input>
+            <input value={query} onChange={(e)=>{onChange(e.target.value)}} type="text" placeholder="Search.."  className="w-full bg-transparent outline-none text-[21px] font text-neutral-500 placeholder:font placeholder:text-neutral-400  "></input>
             {}
                             
 
