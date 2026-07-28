@@ -72,6 +72,7 @@ import { PinICON } from "@/icons/pin";
 import { CancelICON } from "@/icons/cancel";
 import { FlagICON } from "@/icons/flag";
 import { CloudICON } from "@/icons/cloud";
+import { CurrencyDollarICON } from "@/icons/currency-dollar";
 
 export default function IconPreview({type} : any){
 
@@ -436,6 +437,11 @@ export default function IconPreview({type} : any){
         cloudicon:(
             <div className={base}>
                 <CloudICON />
+            </div>
+        ),
+        currencydollaricon:(
+            <div className={base}>
+                <CurrencyDollarICON />
             </div>
         )
 

@@ -431,12 +431,12 @@ export const ICONS = [
         tag : "cloudicon",
         code : "icons/cloud"
     },
-    // {
-    //     id : 73,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
+    {
+        id : 73,
+        name : "Currency Dollar",
+        tag : "currencydollaricon",
+        code : "icons/currency-dollar"
+    },
     // {
     //     id : 74,
     //     name : "Tool",
