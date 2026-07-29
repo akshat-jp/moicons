@@ -437,48 +437,48 @@ export const ICONS = [
         tag : "currencydollaricon",
         code : "icons/currency-dollar"
     },
-    // {
-    //     id : 74,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 75,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 76,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 77,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 78,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 79,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
-    // {
-    //     id : 80,
-    //     name : "Tool",
-    //     tag : "toolicon",
-    //     code : "icons/tool"
-    // },
+    {
+        id : 74,
+        name : "Wifi",
+        tag : "wifiicon",
+        code : "icons/wifi"
+    },
+    {
+        id : 75,
+        name : "Paperclip",
+        tag : "paperclipicon",
+        code : "icons/paperclip"
+    },
+    {
+        id : 76,
+        name : "Adjustments Vertical",
+        tag : "adjustmentsverticalicon",
+        code : "icons/adjustments-vertical"
+    },
+    {
+        id : 77,
+        name : "Loader",
+        tag : "loadericon",
+        code : "icons/loadericon"
+    },
+    {
+        id : 78,
+        name : "Volume",
+        tag : "volumeicon",
+        code : "icons/volume"
+    },
+    {
+        id : 79,
+        name : "Share 2",
+        tag : "share2icon",
+        code : "icons/share2"
+    },
+    {
+        id : 80,
+        name : "Music",
+        tag : "musicicon",
+        code : "icons/music"
+    },
     // {
     //     id : 81,
     //     name : "Tool",

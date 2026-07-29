@@ -73,6 +73,13 @@ import { CancelICON } from "@/icons/cancel";
 import { FlagICON } from "@/icons/flag";
 import { CloudICON } from "@/icons/cloud";
 import { CurrencyDollarICON } from "@/icons/currency-dollar";
+import { WifiICON } from "@/icons/wifi";
+import { PaperclipICON } from "@/icons/paperclip";
+import { AdjustmentsVerticalICON } from "@/icons/adjustments-vertical";
+import { LoaderICON } from "@/icons/loader";
+import { VolumeICON } from "@/icons/volume";
+import { Share2ICON } from "@/icons/share2";
+import { MusicICON } from "@/icons/music";
 
 export default function IconPreview({type} : any){
 
@@ -442,6 +449,41 @@ export default function IconPreview({type} : any){
         currencydollaricon:(
             <div className={base}>
                 <CurrencyDollarICON />
+            </div>
+        ),
+        wifiicon:(
+            <div className={base}>
+                <WifiICON />
+            </div>
+        ),
+        paperclipicon:(
+            <div className={base}>
+                <PaperclipICON />
+            </div>
+        ),
+        adjustmentsverticalicon:(
+            <div className={base}>
+                <AdjustmentsVerticalICON />
+            </div>
+        ),
+        loadericon:(
+            <div className={base}>
+                <LoaderICON />
+            </div>
+        ),
+        volumeicon:(
+            <div className={base}>
+                <VolumeICON />
+            </div>
+        ),
+        share2icon:(
+            <div className={base}>
+                <Share2ICON />
+            </div>
+        ),
+        musicicon:(
+            <div className={base}>
+                <MusicICON />
             </div>
         )
 

@@ -49,7 +49,7 @@ export default function IconCard ({ icon }: IconCardProps) {
 
     return(
         <motion.div
-                className="cursor-pointer group shadow-md hover:shadow-transparent border border-transparent hover:border-neutral-100 w-[130px] 
+                className="cursor-pointer group shadow-md hover:shadow-transparent border border-neutral-100 hover:border-neutral-100 w-[130px] 
                 h-[150px]  flex flex-col items-center justify-center gap 
                 rounded-md manrope"
                 
